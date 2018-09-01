@@ -8,8 +8,8 @@
 Hello World of Spring!
 
 <br><br>
-<!--param.studentName - name of HTML form field -->
-Student name: ${param.studentName}
+
+Student name: ${message}
 
 </body>
 

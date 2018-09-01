@@ -10,6 +10,7 @@
 
     <properties>
         <spring-version>5.0.7.RELEASE</spring-version>
+        <servlet-version>2.5</servlet-version>
     </properties>
 
     <dependencies>
@@ -29,6 +30,14 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring-version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet-version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
