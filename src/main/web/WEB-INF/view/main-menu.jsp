@@ -18,7 +18,7 @@
 <img src="${pageContext.request.contextPath}/resources/img/project-management.png"/>
 
 <br><br>
-<a href="showForm">Hello World Form</a>
+<a href="hello/showForm">Hello World Form</a>
 
 </body>
 
