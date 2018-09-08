@@ -14,11 +14,14 @@
 <h2>Spring MVC Demo - Home Page</h2>
 
 <br><br>
-
+<input type="button" onclick="doSomeWork()" value="Click Me"/>
 <img src="${pageContext.request.contextPath}/resources/img/project-management.png"/>
 
 <br><br>
 <a href="hello/showForm">Hello World Form</a>
+
+<br><br>
+<a href="student/showForm">Student form</a>
 
 </body>
 
