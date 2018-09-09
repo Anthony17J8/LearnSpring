@@ -12,6 +12,8 @@ public class Student {
 
     private LinkedHashMap<String, String> countryOptions;
 
+    private String favoriteLanguage;
+
     public Student() {
 
         // populate country options
@@ -22,6 +24,14 @@ public class Student {
         countryOptions.put("IT", "Italy");
         countryOptions.put("US", "United States of America");
 
+    }
+
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
     }
 
     public String getFirstName() {
