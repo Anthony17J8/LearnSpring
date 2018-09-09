@@ -12,18 +12,31 @@ public class Student {
 
     private LinkedHashMap<String, String> countryOptions;
 
+    private LinkedHashMap<String, String>  favoriteLanguageOptions;
+
     private String favoriteLanguage;
 
     public Student() {
 
-        // populate country options
+        // populate country and language options
         countryOptions = new LinkedHashMap<>();
+        favoriteLanguageOptions = new LinkedHashMap<>();
+
         countryOptions.put("RU", "Russia");
         countryOptions.put("FR", "France");
         countryOptions.put("DE", "Germany");
         countryOptions.put("IT", "Italy");
         countryOptions.put("US", "United States of America");
 
+        favoriteLanguageOptions.put("Java", "Java");
+        favoriteLanguageOptions.put("Java Script", "Java Script");
+        favoriteLanguageOptions.put("C++", "C++");
+        favoriteLanguageOptions.put("SQL", "SQL");
+        favoriteLanguageOptions.put("Kotlin", "Kotlin");
+    }
+
+    public LinkedHashMap<String, String> getFavoriteLanguageOptions() {
+        return favoriteLanguageOptions;
     }
 
     public String getFavoriteLanguage() {
