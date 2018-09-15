@@ -7,7 +7,9 @@
     <title>Customer Registration form</title>
 
     <style>
-        .error {color: red}
+        .error {
+            color: red
+        }
     </style>
 </head>
 
@@ -23,6 +25,11 @@
 
     Last name (*): <form:input path="lastName"/>
     <from:errors path="lastName" cssClass="error"/>
+
+    <br><br>
+
+    Free passes: <form:input path="freePasses"/>
+    <form:errors path="freePasses" cssClass="error"/>
 
     <br><br>
 
