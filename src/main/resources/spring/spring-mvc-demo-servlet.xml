@@ -29,6 +29,7 @@
 
     <mvc:resources mapping="/resources/**" location="/resources/"/>
 
+    <!-- required to mark folder /webapp/resources  as resources -->
     <util:properties id="countryOptions" location="classpath:/countries.properties"/>
 
     <!--Load custom message resources-->
